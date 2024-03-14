@@ -48,7 +48,7 @@ type Machine struct {
 type MachineCreateParams struct {
 	RequestParams
 
-	Name                       string `json:"name"`
+	Name                       string `json:"machineName"`
 	Region                     string `json:"region"`
 	MachineType                string `json:"machineType"`
 	Size                       int    `json:"size"`
