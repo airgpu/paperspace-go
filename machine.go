@@ -43,6 +43,7 @@ type Machine struct {
 	DtLastRun              string       `json:"dtLastRun"`
 	IsManaged              bool         `json:"isManaged"`
 	MachineType            string       `json:"machineType"`
+	DynamicPublicIP        bool         `json:"dynamicPublicIp,omitempty"`
 }
 
 type MachineCreateParams struct {
@@ -65,6 +66,7 @@ type MachineCreateParams struct {
 	TakeInitialSnapshot        *bool  `json:"takeInitialSnapshot,omitempty"`
 	MarkSnapshotAsRestorePoint *bool  `json:"markSnapshotAsRestorePoint,omitempty"`
 	RestorePointFrequency      string `json:"restorePointFrequency,omitempty"`
+	DynamicPublicIP            *bool  `json:"dynamicPublicIp,omitempty"`
 }
 
 type MachineDeleteParams struct {
