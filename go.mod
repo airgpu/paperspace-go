@@ -1,3 +1,3 @@
-module github.com/Paperspace/paperspace-go
+module github.com/airgpu/paperspace-go
 
 go 1.12
