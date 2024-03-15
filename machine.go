@@ -11,6 +11,7 @@ const (
 	MachineStateOff          MachineState = "off"
 	MachineStateProvisioning MachineState = "provisioning"
 	MachineStateReady        MachineState = "ready"
+	MachineStateStarting     MachineState = "starting"
 )
 
 type Machine struct {
