@@ -10,7 +10,7 @@ type MachineState string
 const (
 	MachineStateOff          MachineState = "off"
 	MachineStateProvisioning MachineState = "provisioning"
-	MachineStateRunning      MachineState = "running"
+	MachineStateReady        MachineState = "ready"
 )
 
 type Machine struct {
